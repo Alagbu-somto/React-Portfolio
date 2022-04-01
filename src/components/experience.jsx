@@ -20,7 +20,7 @@ function Experience() {
           icon={<FaReact />}
         >
           <h3 className="vertical-timeline-element-title">Front-end Dev</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h4 className="vertical-timeline-element-subtitle">Freelancer</h4>
           <p>
             <span className="span-experience">REST API</span>
             <span className="span-experience">Bootstrap</span>

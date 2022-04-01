@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 function You() {
   return (
@@ -12,14 +13,19 @@ function You() {
           className="rounded-circle img-h"
         />
       </div>
-      <p className="col-md-5 my-5">
-        Are you looking for someone with a persistent mindset, aims towards
-        implementing your ideas, design needs and delever top quality products
-        that will meet your expectation? then i might be the right fit for the
-        job. I have a persistent mindset and i aim towards customer
-        satisfaction. if this sound like the profile your looking for then get
-        in touch so we can get started on your project
-      </p>
+      <div className="col-md-5 my-5">
+        <p>
+          Are you looking for someone with a persistent mindset, aims towards
+          implementing your ideas, design needs and deliver top quality products
+          that will meet your expectation ? Then I might be the right fit for
+          the job. I have a persistent mindset and I aim towards customer
+          satisfaction. if this sound like the profile your looking for then get
+          in touch so we can get started on your project
+        </p>
+        <Button href="#contact" className="btn-dark">
+          GET STARTED
+        </Button>
+      </div>
     </section>
   );
 }

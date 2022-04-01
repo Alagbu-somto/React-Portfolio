@@ -25,7 +25,7 @@ function Introduction() {
         }}
         startDelay={100}
         cursorColor="#FFFFFF"
-        text="Hey am Alagbu Somtochukwu"
+        text="Hey! I'm Alagbu Somtochukwu"
         typeSpeed={100}
         scrollArea={myRef}
         hideCursorAfterText={true}
@@ -40,7 +40,7 @@ function Introduction() {
         }}
         startDelay={3500}
         cursorColor="#FFFFFF"
-        text="Back-end Developer | Front-end Developer | UI Designer"
+        text="Front-end Developer | Back-end Developer | UI Designer"
         typeSpeed={100}
         scrollArea={myRef}
         hideCursorAfterText={true}

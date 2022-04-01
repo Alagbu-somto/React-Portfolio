@@ -59,8 +59,8 @@ function About() {
                     that there is beauty in simplicity. :) I work majorly with
                     front-end frameworks like React and back-end frameworks such
                     as Node js and Express js. i enjoy building beautiful and
-                    simple to use products. And i would like to help you build
-                    and create your awesome products too. when am not coding i
+                    simple to use products. And i would love to help you build
+                    and create your awesome products too. when am not coding I
                     enjoy meeting up with people, mentoring and encouraging
                     young people towards self-developement "
                   </p>
