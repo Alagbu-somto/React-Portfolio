@@ -4,7 +4,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 function Introduction() {
   const myRef = document.querySelector(".scrollable-div");
   return (
-    <div className="bg-dark text-center intro">
+    <section className="container-fluid bg-dark text-center intro" id="home">
       <img
         src={
           process.env.PUBLIC_URL + "images/jing.fm-hurdler-clip-art-3372397.png"
@@ -45,7 +45,7 @@ function Introduction() {
         scrollArea={myRef}
         hideCursorAfterText={true}
       />
-    </div>
+    </section>
   );
 }
 export default Introduction;

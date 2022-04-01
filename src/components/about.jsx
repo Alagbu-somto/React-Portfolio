@@ -55,14 +55,14 @@ function About() {
                   <p>
                     <span className="wave">hello :) </span>
                     <br />
-                    "👋 I'm Alagbu Somtockuwu.I believe that there is beauty in
-                    simplicity. :) I'm work majorly with front-end frameworks
-                    like React and back-end frameworks such as Node js and
-                    Express js. i enjoy building beautiful and simple to use
-                    products. And i would like to help you build and create your
-                    awesome products too. when am not coding i enjoy meeting up
-                    with people, mentoring and encouraging young people towards
-                    self-developement "
+                    "👋 I'm Alagbu Somtockuwu a full-stack Developer. I believe
+                    that there is beauty in simplicity. :) I work majorly with
+                    front-end frameworks like React and back-end frameworks such
+                    as Node js and Express js. i enjoy building beautiful and
+                    simple to use products. And i would like to help you build
+                    and create your awesome products too. when am not coding i
+                    enjoy meeting up with people, mentoring and encouraging
+                    young people towards self-developement "
                   </p>
                 </div>
               </div>

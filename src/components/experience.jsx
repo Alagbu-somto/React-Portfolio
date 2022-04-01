@@ -1,5 +1,6 @@
 import React from "react";
 import { FaReact, FaNode } from "react-icons/fa";
+import { AiOutlineHourglass } from "react-icons/ai";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,13 +9,13 @@ import "react-vertical-timeline-component/style.min.css";
 function Experience() {
   return (
     <section className="bg-projects">
-      <h3 className="text-center py-5">Experience</h3>
+      <h3 className="text-center py-5 text-white">Experience</h3>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2011 - present"
+          contentStyle={{ background: "#fff", color: "#040f0f" }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+          date="2021 - present"
           iconStyle={{ background: "#dab88b", color: "#fff" }}
           icon={<FaReact />}
         >
@@ -32,9 +33,9 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2010 - 2011"
+          contentStyle={{ background: "#fff", color: "#040f0f" }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+          date="2021 - present"
           iconStyle={{ background: "#dab88b", color: "#fff" }}
           icon={<FaNode />}
         >
@@ -51,7 +52,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: "#dab88b", color: "#fff" }}
-          icon={<FaReact />}
+          icon={<AiOutlineHourglass />}
         />
       </VerticalTimeline>
     </section>
