@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact, FaNode, FaCircle } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import AboutImage from "../images/me.jpg";
 
 function About() {
   return (
@@ -13,14 +14,14 @@ function About() {
           <div className="col-md-4 center m-about">
             <div className="shadow maxW-about text-center">
               <img
-                src={process.env.PUBLIC_URL + `${"/images/me.jpg"}`}
+                src={AboutImage}
                 alt=""
                 height="250"
                 className="my-4 w-about"
               />
               <div style={{ cursor: "auto" }}>
                 <FaReact
-                  style={{ color: "blue", fontSize: "40px" }}
+                  style={{ color: "#50b2c0", fontSize: "40px" }}
                   className="mx-3 mb-2"
                 />
                 <SiNextdotjs

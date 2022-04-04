@@ -5,7 +5,7 @@ function Project(props) {
     <div className="col-md-3 m-4 w-project container-project bg-white">
       <div className=" text-center row">
         <img
-          src={process.env.PUBLIC_URL + `${props.image}`}
+          src={props.image}
           alt=""
           height="250"
           className="my-4 w-project col-sm-12"

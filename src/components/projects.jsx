@@ -1,5 +1,8 @@
 import React from "react";
 import Project from "./project";
+import TodoImage from "../images/surja-sen-das-raj-y16ku6si6xI-unsplash.jpg";
+import NoteImage from "../images/jess-bailey-cvUIv9j5wDg-unsplash.jpg";
+import QuizImage from "../images/vadim-bogulov-MfBnqUOz_qY-unsplash.jpg";
 
 function Projects() {
   return (
@@ -8,19 +11,19 @@ function Projects() {
       <Project
         projectName="Todolist"
         description="Built using Mern-Stack and redux"
-        image="images/surja-sen-das-raj-y16ku6si6xI-unsplash.jpg"
+        image={TodoImage}
         Url="https://todolist-mernstack.herokuapp.com/"
       />
       <Project
         projectName="QuizGame"
         description="Built using React and Typescript"
-        image="images/vadim-bogulov-MfBnqUOz_qY-unsplash.jpg"
+        image={QuizImage}
         Url="https://magnificent-truffle-1418fd.netlify.app/"
       />
       <Project
         projectName="NoteBook"
         description="Built using React"
-        image="images/jess-bailey-cvUIv9j5wDg-unsplash.jpg"
+        image={NoteImage}
         Url="https://note-book-app.netlify.app/"
       />
     </section>

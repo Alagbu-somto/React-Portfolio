@@ -1,17 +1,13 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import youImage from "../images/pics.jpg";
 
 function You() {
   return (
     <section className="text-center p-b px-5 row bg-h text-white">
       <h1 className="my-5 col-md-12">Why Hire Me ?</h1>
       <div className="my-3 col-md-5">
-        <img
-          src={process.env.PUBLIC_URL + `${"/images/pics.jpg"}`}
-          alt=""
-          height=""
-          className="rounded-circle img-h"
-        />
+        <img src={youImage} alt="" height="" className="rounded-circle img-h" />
       </div>
       <div className="col-md-5 my-5">
         <p>

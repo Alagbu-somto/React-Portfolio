@@ -1,19 +1,12 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
+import IntroImage from "../images/jing.fm-hurdler-clip-art-3372397.png";
 
 function Introduction() {
   const myRef = document.querySelector(".scrollable-div");
   return (
     <section className="container-fluid bg-dark text-center intro" id="home">
-      <img
-        src={
-          process.env.PUBLIC_URL + "images/jing.fm-hurdler-clip-art-3372397.png"
-        }
-        alt=""
-        width="150"
-        hieght="150"
-        className="mb-4"
-      />
+      <img src={IntroImage} alt="" width="150" hieght="150" className="mb-4" />
       <TypeWriterEffect
         textStyle={{
           fontFamily: "Red Hat Display",
