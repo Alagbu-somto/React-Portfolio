@@ -13,7 +13,7 @@ function Projects() {
         projectName="MakeUP Site Template"
         description="Built using Next js and tailwindCss"
         image={MakeUPImage}
-        Url="http://repo-beige.vercel.app/"
+        Url="https://repo-ah3dz07pc-alagbu-somto.vercel.app/"
       />
       <Project
         projectName="Todolist"
