@@ -12,7 +12,7 @@ import GetInTouch from "./getInToch";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Introduction />
       <You />
@@ -22,7 +22,7 @@ function App() {
       <Experience />
       <GetInTouch />
       <Footer />
-    </div>
+    </>
   );
 }
 

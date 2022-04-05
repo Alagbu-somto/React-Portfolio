@@ -11,7 +11,10 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiNextdotjs,
+  SiTypescript,
   SiMongodb,
+  SiRedux,
+  SiExpress,
 } from "react-icons/si";
 
 function Skills() {
@@ -87,6 +90,27 @@ function Skills() {
           className="mx-3 mt-3"
         />
         <p>Mongodb</p>
+      </div>
+      <div className="skills-box col-sm-1 text-center w-skills">
+        <SiTypescript
+          style={{ color: "white", fontSize: "40px" }}
+          className="mx-3 mt-3"
+        />
+        <p>Typescript</p>
+      </div>
+      <div className="skills-box col-sm-1 text-center w-skills">
+        <SiRedux
+          style={{ color: "white", fontSize: "40px" }}
+          className="mx-3 mt-3"
+        />
+        <p>Redux</p>
+      </div>
+      <div className="skills-box col-sm-1 text-center w-skills">
+        <SiExpress
+          style={{ color: "white", fontSize: "40px" }}
+          className="mx-3 mt-3"
+        />
+        <p>Express js</p>
       </div>
     </section>
   );
